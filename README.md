@@ -38,7 +38,7 @@ On Linux, samply needs access to performance events system for unprivileged user
    sudo setcap 'cap_perfmon+ep' `which samply`
    ```
 
-- set the `CAP_SYS_ADMIN` capability as effective and permitted for samply:
+ - set the `CAP_SYS_ADMIN` capability as effective and permitted for samply:
 
    ```
    sudo setcap 'cap_sys_admin+ep' `which samply`
